@@ -1,6 +1,16 @@
-# avatarer
-change init.yaml to suit your prefs (or just leave as it is, safest)
+# BOXxY
 
-put all the images you want to change into the "images" directory, this script will resize all images and center them, crop them to square.
+This was a thing to generate avatars from large image libraries (for dummy site data) but I've altered it to make neat machine learning data!
 
-I ran this on a webserver but im sure there's some way to do it with a PHP CLI which i havent tested uhhhhhhhhhhhhhhhhhhhhh
+It takes images and turns them into little squares, and outputs each file as matrix data alongside its index. (LUA FORMATTED tables)
+
+You'll need
+- php version >= 5
+- gd `sudo apt-get install php5-gd`
+
+Running with arguments (these take priority):
+`php run.php <source_image_directory> <target_directory> <image_size>`
+
+else just run
+`php run.php` 
+and edit all of the configurations in the `config.php` file.
