@@ -1,5 +1,3 @@
-# BOXxY
-
 This was a thing to generate avatars from large image libraries (for dummy site data) but I've altered it to make neat machine learning data!
 
 It takes images and turns them into little squares, and outputs each file as a JSON input matrix alongside its index.
